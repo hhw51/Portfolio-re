@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Exclude sensitive routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# Host and Sitemap
+Sitemap: https://vexistech.com/sitemap.xml
+Host: https://vexistech.com
