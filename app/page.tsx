@@ -124,7 +124,7 @@ export default function HomePage() {
             >
             {[
                 { number: "30+", label: "PROJECTS DELIVERED" },
-                { number: "8+", label: "YEARS EXPERIENCE" },
+                { number: "2+", label: "YEARS EXPERIENCE" },
                 { number: "100%", label: "CLIENT SATISFACTION" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
